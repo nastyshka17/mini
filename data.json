@@ -1,0 +1,151 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "п",
+      "password_hash": "$2a$10$WGKq0eaTpzVyOhVAm1rq7urJzdOq5BrQ4q.o5XKzUMLF3e06lGlEq",
+      "display_name": "ооооооооооооооооо",
+      "status": "негр"
+    },
+    {
+      "id": 2,
+      "login": "а",
+      "password_hash": "$2a$10$KhTY.KQoIloOFu5nWda6buRxxrAVVB9tPwsZEMhg86nYVFTdGleo6",
+      "display_name": "а",
+      "status": "online"
+    },
+    {
+      "id": 3,
+      "login": "б",
+      "password_hash": "$2a$10$q63c39rODYcYYy1OVJhZ2eOrY4dcL//L3qcyW7bWVEzeuhiu9ZOPm",
+      "display_name": "б",
+      "status": "offline"
+    },
+    {
+      "id": 4,
+      "login": "настя",
+      "password_hash": "$2a$10$TuKn8ol1UMLr2tc5sEJxWuwpEHbW3CT0mA7yNgCS9BJshNPR9niYe",
+      "display_name": "настя",
+      "status": "online"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "type": "personal",
+      "participants": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "type": "personal",
+      "participants": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "type": "personal",
+      "participants": [
+        4,
+        2
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "chat_id": 1,
+      "sender_id": 2,
+      "text": "ты хуй",
+      "timestamp": 1783436109496
+    },
+    {
+      "id": 2,
+      "chat_id": 1,
+      "sender_id": 2,
+      "text": "2",
+      "timestamp": 1783436119020
+    },
+    {
+      "id": 3,
+      "chat_id": 2,
+      "sender_id": 3,
+      "text": "пидр",
+      "timestamp": 1783437397187
+    },
+    {
+      "id": 4,
+      "chat_id": 2,
+      "sender_id": 2,
+      "text": "сам такой",
+      "timestamp": 1783437409169
+    },
+    {
+      "id": 5,
+      "chat_id": 3,
+      "sender_id": 4,
+      "text": "привет",
+      "timestamp": 1783437740033
+    },
+    {
+      "id": 6,
+      "chat_id": 3,
+      "sender_id": 2,
+      "text": "ZOV",
+      "timestamp": 1783437787366
+    },
+    {
+      "id": 7,
+      "chat_id": 3,
+      "sender_id": 2,
+      "text": "ы",
+      "timestamp": 1783453129050
+    },
+    {
+      "id": 8,
+      "chat_id": 3,
+      "sender_id": 4,
+      "text": "ц",
+      "timestamp": 1783453280841
+    },
+    {
+      "id": 9,
+      "chat_id": 3,
+      "sender_id": 2,
+      "text": "ц",
+      "timestamp": 1783453286055
+    },
+    {
+      "id": 10,
+      "chat_id": 3,
+      "sender_id": 4,
+      "text": "у",
+      "timestamp": 1783454011346
+    },
+    {
+      "id": 11,
+      "chat_id": 3,
+      "sender_id": 4,
+      "text": "в",
+      "timestamp": 1783454576142
+    },
+    {
+      "id": 12,
+      "chat_id": 3,
+      "sender_id": 2,
+      "text": "вцвцв",
+      "timestamp": 1783454584611
+    },
+    {
+      "id": 13,
+      "chat_id": 3,
+      "sender_id": 2,
+      "text": "цвцвцв",
+      "timestamp": 1783454586849
+    }
+  ]
+}

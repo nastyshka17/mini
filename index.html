@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Mini · розовый чат</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="app">
+  <!-- ЭКРАН АВТОРИЗАЦИИ -->
+  <div id="authScreen" class="screen">
+    <div class="auth-box">
+      <h2>🌸 Mini</h2>
+      <div class="tabs">
+        <button class="tab active" data-tab="login">Вход</button>
+        <button class="tab" data-tab="register">Регистрация</button>
+      </div>
+      <div id="authForm">
+        <input type="text" id="loginInput" placeholder="Логин" />
+        <input type="password" id="passwordInput" placeholder="Пароль" />
+        <button id="authActionBtn">Войти</button>
+        <div id="authError" class="error-msg"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ЭКРАН СПИСКА ЧАТОВ -->
+  <div id="chatsScreen" class="screen hidden">
+    <div class="chat-container">
+      <div class="chat-header">
+        <h1>🌸 Mini</h1>
+        <div class="header-actions">
+          <button id="themeToggle">🌙</button>
+          <button id="usersBtn">👥</button>
+          <button id="profileBtn">👤</button>
+          <button id="logoutBtn">🚪</button>
+        </div>
+      </div>
+      <div class="chat-list" id="chatList"></div>
+    </div>
+  </div>
+
+  <!-- ЭКРАН ЧАТА -->
+  <div id="chatScreen" class="screen hidden">
+    <div class="chat-container">
+      <div class="chat-header">
+        <button id="backBtn">←</button>
+        <h1 id="chatTitle">Чат</h1>
+        <span id="chatStatus"></span>
+      </div>
+      <div class="chat-messages" id="messages"></div>
+      <div class="chat-input">
+        <input type="text" id="messageInput" placeholder="Сообщение..." />
+        <button id="sendBtn">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ЭКРАН ПРОФИЛЯ -->
+  <div id="profileScreen" class="screen hidden">
+    <div class="profile-box">
+      <h2>👤 Профиль</h2>
+      <div class="avatar-container">
+        <img id="profileAvatar" src="" alt="Аватар" />
+        <label for="avatarInput" class="avatar-upload-btn">📷 Загрузить аватар</label>
+        <input type="file" id="avatarInput" accept="image/*" style="display:none" />
+      </div>
+      <label>Логин (не меняется)</label>
+      <input type="text" id="profileLogin" disabled />
+      <button id="deleteAccountBtn" style="background: #d32f2f;">🗑️ Удалить аккаунт</button>
+      <button id="profileBackBtn">Назад</button>
+      <div id="profileError" class="error-msg"></div>
+    </div>
+  </div>
+
+  <!-- МОДАЛКА СПИСКА ПОЛЬЗОВАТЕЛЕЙ -->
+  <div id="usersModal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>👥 Пользователи</h2>
+        <button id="closeUsersBtn">✖</button>
+      </div>
+      <div id="usersList"></div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

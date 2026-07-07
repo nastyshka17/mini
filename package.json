@@ -1,0 +1,13 @@
+{
+  "name": "my-chat",
+  "version": "2.0.0",
+  "description": "Chat with auth and JSON storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.21.0",
+    "bcryptjs": "^2.4.3"
+  }
+}
